@@ -9,8 +9,6 @@
 #' @examples
 #' x <- 1:3
 #' res <- secondPack::MWAD(x)
-#'
-#' expect_true(TRUE)
 #' @export
 #'
 MWAD <- function(x, weights = NULL, target = 1L) {

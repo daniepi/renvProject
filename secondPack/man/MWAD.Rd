@@ -4,7 +4,7 @@
 \alias{MWAD}
 \title{Mean weighted absolute deviance (MWAD)}
 \usage{
-MWAD(x, weights = NULL, target = 1)
+MWAD(x, weights = NULL, target = 1L)
 }
 \arguments{
 \item{x}{A \code{numeric} vector for which the MWAD should be computed.}
@@ -23,8 +23,6 @@ This function calculates MWAD for a given numeric vector and target.
 \examples{
 x <- 1:3
 res <- secondPack::MWAD(x)
-
-expect_true(TRUE)
 }
 \seealso{
 \code{\link[firstPack]{CalculateMWAD}}
