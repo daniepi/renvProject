@@ -11,6 +11,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/secondPack)](https://cran.r-project.org/package=secondPack)
 [![Travis build
 status](https://travis-ci.com/daniepi/renvProject.svg?branch=master)](https://travis-ci.com/daniepi/renvProject)
+[![Codecov test
+coverage](https://codecov.io/gh/daniepi/renvProject/branch/master/graph/badge.svg)](https://codecov.io/gh/daniepi/renvProject?branch=master)
 <!-- badges: end -->
 
 The goal of secondPack is to …
