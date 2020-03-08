@@ -10,7 +10,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/secondPack)](https://cran.r-project.org/package=secondPack)
 [![Travis build
-status](https://travis-ci.org/daniepi/renvProject.svg?branch=master)](https://travis-ci.org/daniepi/renvProject)
+status](https://travis-ci.com/daniepi/renvProject.svg?branch=master)](https://travis-ci.com/daniepi/renvProject)
 <!-- badges: end -->
 
 The goal of secondPack is to …
