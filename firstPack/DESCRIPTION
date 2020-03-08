@@ -17,7 +17,9 @@ Suggests:
     knitr,
     rmarkdown,
     mockery,
-    lintr
+    lintr,
+    covr
 VignetteBuilder: knitr
 Imports: 
-    data.table (>= 1.12.8)
+    data.table (>= 1.12.8),
+    secondPack

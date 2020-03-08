@@ -1,0 +1,14 @@
+linters: with_defaults(
+    line_length_linter(100),
+    object_name_linter(styles = c("camelCase", "CamelCase")),
+    extraction_operator_linter,
+    implicit_integer_linter,
+    T_and_F_symbol_linter,
+    unneeded_concatenation_linter,
+    dummy_linter = NULL
+  )
+exclusions: list(
+    "man/figures/README-pressure-1.png",
+    "man/MWAD.Rd",
+    "vignettes/secondPack.Rmd"
+  )
