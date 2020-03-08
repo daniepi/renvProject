@@ -12,9 +12,11 @@
 #' res <- firstPack::CalculateMWAD(data, lossRatioColumns = c("col1", "col2"), weights = "ekspo")
 #' @import data.table
 #' @importFrom secondPack MWAD
+#' @importFrom futile.logger flog.debug
 #' @export
 #'
 CalculateMWAD <- function(data, lossRatioColumns, weights = NULL) {
+  flog.debug("Calculating MWAD.")
   if (!is.null(weights)) {
     results <- data[, lapply(.SD, MWAD, weights = get(weights)), .SDcols = lossRatioColumns]
   } else {

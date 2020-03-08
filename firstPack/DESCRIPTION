@@ -22,4 +22,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     data.table (>= 1.12.8),
-    secondPack
+    secondPack,
+    futile.logger (>= 1.4.3)

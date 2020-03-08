@@ -2,4 +2,5 @@
 
 export(CalculateMWAD)
 import(data.table)
+importFrom(futile.logger,flog.debug)
 importFrom(secondPack,MWAD)
